@@ -1,0 +1,730 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .....nav bar.... */
+.navlist{
+    display: flex;
+    align-items:center ;
+    width: 50%;
+    list-style: none;
+    /* background-color: rgb(182, 172, 161); */
+    text-align: right;
+    margin-left: 28%;
+    display: inline;
+    /* margin-bottom: 10%; */
+    font-size: large;
+    /* padding-bottom: 5%; */
+}
+.logo-image{
+    height: 50px;
+    border: 2px solid rgb(196, 63, 10);
+    /* border-radius: 60px; */
+    border-radius: 60%;
+}
+.navbar{
+    display: flex;
+    /* margin: 10px; */
+    background-color:yellow;
+    /* background-image: url(main.jpg); */
+    /* background-position: center; */
+    background-size: cover;
+    /* position: fixed; */
+}
+.a{
+    /* align-items: right;text-align: right; */
+     /* margin-left: 20px; */
+     margin-right: 30px;
+     /* margin-top: 17px; */
+     font-size: large;
+     text-decoration: none;
+     float: left;
+     color: rgb(10, 10, 10);
+     cursor: pointer;
+     font-weight: bold;
+     font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+    width: 50%;
+    /* background-color:rgb(182, 172, 161); */
+    /* text-align: right; */
+}
+.a:hover{
+    color: rgb(236, 13, 13);
+    
+}
+/* .....slid bar....... */
+.first{
+    height: 100vh;
+    background: rgba(0,0,0,0.7) url(../image/d.jpg);
+     background-position: center;
+     background-size: cover;
+     background-blend-mode: darken;
+}
+.blank{
+    height: 200px;
+}
+h1{
+    text-align: center;
+    padding-top: 18%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}.pa{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.order{
+    border: 2px solid;
+    /* width: 6oopx; */
+    padding: 15px 10px;
+    text-align: center;
+    /* margin: 40px 600px; */
+    margin-left: 40%;
+    margin-top: 02%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid yellow ;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: large;
+}
+.order:hover{
+    color: rgb(19, 19, 18);
+}
+span{
+    color: yellow;
+}
+.menu{
+    border: 2px solid yellow;
+    background: transparent;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    font-size: larger;
+    padding: 15px 10px;
+    border-radius :25px; ;
+    list-style: none;
+    text-decoration: none;
+    margin-left:2%;
+}
+.me{
+    text-decoration: none;
+    color:white ;
+    
+}
+.me:hover{
+    color: black;
+    /* background-color: #fff; */
+}
+/* ........body......... */
+h2,h3{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top:5% ;
+    margin-bottom: 4%;
+}
+.second{
+    display: flex;
+    /* flex-direction: column; */
+}
+.imgl{
+    height: 170px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+}
+.left{
+    width: 25%;
+    margin-left: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 225, 225);
+    /* display: flex; */
+}
+
+.center,.right{
+    width: 25%;
+    margin-left: 5px;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 225, 225);
+    /* display: flex; */
+}
+.pizza,.sand{
+    height: 170px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+}
+.ppizza,.pbuggar,.psand{
+    margin-top: 6%;
+    font-family: sans-serif;
+    /* background-color: aqua; */
+}
+.right{
+    margin-right: auto;
+}
+.pizza,.sand{
+    height: 170px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+}
+.ppizza,.pbuggar,.psand{
+    margin-top: 6%;
+    font-family: sans-serif;
+    /* background-color: aqua; */
+}
+.thir{
+    /* height: 130vh; */
+    background-color:rgb(216, 213, 213);
+    /* margin-top: 5%; */
+    /* display: flex; */
+}
+.bug{
+    height: 150px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    margin-left:8% ;
+}
+.one{
+    width: 20%;
+    margin-left:4% ;
+    background-color: white;
+    margin-top: 5%;
+    /* height: 45vh; */
+}
+.pone,.psecond{
+    padding: 5%;
+}
+h4{
+    text-align: center;
+}
+strong{
+    text-align: center;
+    color: rgb(250, 6, 6);
+    cursor: pointer;
+    margin-left: 40%;
+    transition: 7;
+}
+strong:hover{
+    color: rgb(15, 15, 15);
+}
+.h3{
+    /* margin-bottom: 5%; */
+}
+.piz{
+    height: 150px; 
+    border: 5px solid yellow;
+    border-radius: 15px;
+    /* width: 100px; */
+    margin-left: 20%;
+     /* margin-left: 100%; */
+}
+.seconds{
+    /* height: 45vh; */
+    background-color: white;
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 20%;
+}
+.si{
+     height:  150px; 
+    border: 5px solid yellow;
+    border-radius: 15px;
+    /* width: 100px; */
+    margin-left: 5%;
+} 
+.three{
+    height: vh;
+    background-color: white;
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 20%;
+}
+.four{
+    height: vh;
+    background-color: white;
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 20%;
+}
+
+.donut{
+    height: 150px; 
+    border: 5px solid yellow;
+    border-radius: 15px;
+    /* width: 100px; */
+    margin-left: 9%;
+}
+.five{
+    height: vh;
+    background-color: white;
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 20%;
+}
+.third{
+    display: flex;
+}
+.drink{
+    height:  150px; 
+    border: 5px solid yellow;
+    border-radius: 15px;
+    /* width: 100px; */
+    margin-left: 9%;
+}
+.fri{
+    height:  150px; 
+    border: 5px solid yellow;
+    border-radius: 15px;
+    /* width: 100px; */
+    margin-left: 11%;
+}
+.frise{
+    height:  150px; 
+    border: 5px solid yellow;
+    border-radius: 15px;
+    /* width: 100px; */
+    margin-left: 9%;
+    width: 200px;
+}
+.zing{
+    height:  150px; 
+    border: 5px solid yellow;
+    border-radius: 15px;
+    /* width: 100px; */
+    margin-left: 10%;
+    width: 200px;
+}
+.more{
+    border: 2px solid;
+    /* width: 6oopx; */
+    padding: 15px 10px;
+    text-align: center;
+    /* margin: 40px 600px; */
+    margin-left: 47%;
+    margin-top: 03%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(128, 128, 1) ;
+    background: transparent;
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: large;
+}
+.more:hover{
+    color: #fff;
+    background-color: black;
+}
+.location{
+    display: flex;
+}
+.aa{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../image/isl.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5%;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 70%;
+    color: rgb(12, 10, 10);
+}
+.b{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../image/lahore.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5%;
+}
+.c{
+    width: 25%;
+    height: 40vh;
+    background-image: url(../image/karachi.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+.d{
+    width: 24%;
+    height: 40vh;
+    background-image: url(../image/murree.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:5%;
+}
+h6{
+    margin-top: 80%;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 70%;
+    color: rgb(12, 10, 10);
+    /* padding-top: 68%; */
+}
+.rawal{
+    width: 24%;
+    height: 40vh;
+    background-image: url(../image/rawal.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:5%;
+ 
+}
+.ggg{
+    /* float: right; */
+    border: 4px solid yellow;
+    height: 30vh;
+    background-color: rgb(214, 210, 210);
+}
+.rr{
+    display: flex;
+}
+.sindh{
+    width: 24%;
+    height: 40vh;
+    background-image: url(../image/sindh.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:5%;
+}
+.adress{
+    height: 90vh;
+    width: 100%;
+    background-image: url(../image/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.ll{
+    height: 120vh;
+    border: 2px solid;
+}
+.heading{
+    color: yellow;
+    /* font-kerning: inherit; */
+    font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.locat{
+    /* height: 121vh; */
+}
+.di{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+.foter{
+    height: 5vh;
+    background-color: yellow;
+    text-align: center;
+
+}
+.ft{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0.5%;
+    font-family: cursive;
+}
+.burgar{
+    display: none;
+    position: absolute;
+    cursor:pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: rgb(8, 8, 8);
+    height: 4px;
+    margin: 5px 3px;
+}
+@media(  max-width:393px) {
+    .second{
+        flex-direction: column;
+    }
+    .left,.center,.right{
+        width: 85%;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .one,.seconds,.three,.four,.five {
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center, .right {
+        margin-left: 0px;
+    }
+    .more{
+        margin-left: 43%;
+        margin-top: 04%
+        /* margin-bottom: 4%; */
+    }
+    .location,.rr{
+        flex-direction: column;
+    }
+    .aa,.b,.c,.d,.rawal,.sindh{
+        margin: auto;
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .bug,.donut,.drink,.frise{
+        margin-left: 17%;
+    }
+    .piz{
+        margin-left: 23%;
+    }
+    .si{
+        margin-left: 12%; 
+    }
+    .fri{
+        margin-left: 18%;
+    }
+    .frise,.zing{
+        margin-left: 16%;
+    }
+    .bug{
+        margin-left: 15%;
+
+}
+.burgar{
+    display: block;
+}
+.v-class{
+    visibility: hidden;
+}
+.h-nav{
+    height: 60px;
+}
+}
+ @media ( min-width:280px) and (  max-width:414px) {
+    .second{
+        flex-direction: column;
+    }
+    .left,.center,.right{
+        width: 85%;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .one,.seconds,.three,.four,.five {
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center, .right {
+        margin-left: 0px;
+    }
+    .more{
+        margin-left: 43%;
+        margin-top: 04%
+    }
+    .location,.rr{
+        flex-direction: column;
+    }
+    .aa,.b,.c,.d,.rawal,.sindh{
+        margin: auto;
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .bug,.donut,.drink,.frise{
+        margin-left: 20%;
+    }
+    .piz{
+        margin-left: 25%;
+    }
+    .si{
+        margin-left: 15%;
+    }
+    .fri{
+        margin-left: 20%;
+    }
+    .frise,.zing{
+        margin-left: 19%;
+    }
+    .bug{
+        margin-left: 18%;
+    }
+    .pizza,.sand,.imgl{
+        height: 150px;
+    }
+    h1{
+        padding-top: 65%;
+    }
+    .burgar{
+        display: block;
+    }
+    .v-class{
+        visibility: hidden;
+    }
+    .h-nav{
+        height: 60px;
+    }
+}
+    /* @media (  max-width:375px){
+        .bug,.donut,.drink,.frise{
+            margin-left: 16%;
+        }
+        .piz{
+            margin-left: 23%;
+        }
+        .si{
+            margin-left: 12%; 
+        }
+        .fri{
+            margin-left: 18%;
+        }
+        .frise,.zing{
+            margin-left: 16%;
+        }
+        .bug{
+            margin-left: 15%;
+    }
+    } */
+    @media ( min-width:540px) and (  max-width:912px){
+h1{
+    padding-top: 50%;
+}
+.pizza,.sand,.imgl{
+    height: 130px;
+}
+.bug,.donut,.drink,.frise,.zing,.fri, .si, .piz{
+    height: 90px;
+}
+.zing,.frise{
+    width: 120px;
+}
+.aa,.rawal,.sindh,.b,.c,.d{
+    margin: 2%;
+    width: 30%;
+}
+.heading{
+    padding-top: 40%;
+}
+.burgar{
+    display: block;
+}
+.v-class{
+    visibility: hidden;
+}
+.h-nav{
+    height: 60px;
+}
+    }
+    @media ( max-width:280px){
+        .bug,.si,.donut,.drink,.fri,.frise,.zing{
+            height: 130px;
+            margin-left: 9%;
+    }
+    .piz{
+        margin-left: 15%;
+    }
+    .si{
+        margin-left: 6%;
+    }
+    .donut,.drink{
+        margin-left: 11%;
+    }
+    .fri{
+        margin-left: 13%;
+    }
+    .frise,.zing{
+        margin-left: 4%;
+    }
+    .order{
+        margin-left: 10%;
+        margin-top: 09%;
+    }
+    h1{
+        padding-top: 40%;
+    }
+}
+@media ( min-width:415px) and (  max-width:540px){
+    .pizza,.sand,.imgl{
+        height: 80px;
+    }
+    .left,.right,.center{
+        padding: 4%;
+    }
+    .bug, .donut, .drink, .frise, .zing, .fri, .si, .piz {
+        height: 56px;
+    }
+    .zing, .frise {
+        width: 76px;
+    }
+    .burgar{
+        display: block;
+    }
+    .v-class{
+        visibility: hidden;
+    }
+    .h-nav{
+        height: 60px;
+    }
+}
+@media ( min-width:914px) and (  max-width:1025px){
+    .bug{
+        height: 120px;
+        margin-left: 7%;
+    }
+    .piz {
+        height: 120px;
+        /* width: 100px; */
+        margin-left: 19%;
+        /* margin-left: 100%; */
+    }
+    .si {
+        height: 120px;
+        margin-left: 3%;
+    }
+    .donut ,.drink{
+        height: 120px;
+        margin-left: 8%;
+    }
+    .fri {
+        height: 120px;
+        margin-left: 11%;
+    }
+    .zing ,.frise{
+        height: 120px;
+        margin-left: 10%;
+        width: 154px;
+    }
+    .burgar{
+        display: block;
+    }
+    .v-class{
+        visibility: hidden;
+    }
+    .h-nav{
+        height: 60px;
+    }
+}
